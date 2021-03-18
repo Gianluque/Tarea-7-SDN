@@ -14,7 +14,7 @@ nameList = []
 for i in range(len(Dict)):
 	
 	nameList.append([Dict[i]['family'],Dict[i]['hostname'],
-                    Dict[i]['apManagerInterfaceIp'],Dict[i]['lastUpdated'],
+                    Dict[i]['managementIpAddress'],Dict[i]['lastUpdated'],
                     Dict[i]['reachabilityStatus']])
 pprint(nameList)
 
