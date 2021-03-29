@@ -1,0 +1,11 @@
+version: "3.9"
+services:
+  Asignacion:
+    image: python-docker
+    volumes:
+      - volpy:\app
+volumes:
+  volpy:
+    external: true
+
+

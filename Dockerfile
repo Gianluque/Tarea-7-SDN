@@ -6,4 +6,4 @@ RUN pip3 install requests
 
 COPY . .
 
-CMD [ "python3","asignacion8.py"]
+CMD [ "python3","asignacion7.py"]
